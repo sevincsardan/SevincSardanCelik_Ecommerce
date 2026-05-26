@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MorShop - İletişim</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="ust-menu">
+        <div class="sayfa-kutusu menu-icerik">
+            <a class="logo" href="../index.html">MorShop</a>
+            <ul class="menu-linkler">
+                <li><a href="../index.html">Ana Sayfa</a></li>
+                <li><a href="urunler.html">Ürünler</a></li>
+                <li><a href="sepet.html">Sepet</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="ana-bolum">
+        <div class="sayfa-kutusu">
+            <h1 class="sayfa-baslik">İletişim</h1>
+            <p>Sorularınız için formu doldurun. En kısa sürede size dönüş yapılır.</p>
+            <br>
+
+            <form class="form-alani" id="iletisim-formu">
+                <div class="form-grup">
+                    <label for="ad">Ad Soyad</label>
+                    <input type="text" id="ad" name="ad">
+                    <span class="form-hata" id="ad-hata">Ad soyad boş bırakılamaz.</span>
+                </div>
+
+                <div class="form-grup">
+                    <label for="email">E-posta</label>
+                    <input type="email" id="email" name="email">
+                    <span class="form-hata" id="email-hata">Geçerli bir e-posta girin.</span>
+                </div>
+
+                <div class="form-grup">
+                    <label for="konu">Konu</label>
+                    <select id="konu" name="konu">
+                        <option value="siparis">Sipariş</option>
+                        <option value="iade">İade</option>
+                        <option value="diger">Diğer</option>
+                    </select>
+                </div>
+
+                <div class="form-grup">
+                    <label for="mesaj">Mesaj</label>
+                    <textarea id="mesaj" name="mesaj"></textarea>
+                    <span class="form-hata" id="mesaj-hata">Mesaj en az 10 karakter olmalı.</span>
+                </div>
+
+                <button class="buton-mor" type="submit">Gönder</button>
+            </form>
+
+            <div class="form-basarili" id="form-basarili">
+                Mesajınız alındı. Teşekkür ederiz.
+            </div>
+        </div>
+    </main>
+
+    <footer class="alt-bilgi">
+        <p>MorShop E-Ticaret Sitesi</p>
+        <p>Sevinç Sardan Çelik - Web Tasarım Ödevi</p>
+    </footer>
+
+    <script src="../scripts/myscript.js"></script>
+</body>
+</html>

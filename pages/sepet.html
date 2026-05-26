@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MorShop - Sepet</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header class="ust-menu">
+        <div class="sayfa-kutusu menu-icerik">
+            <a class="logo" href="../index.html">MorShop</a>
+            <ul class="menu-linkler">
+                <li><a href="../index.html">Ana Sayfa</a></li>
+                <li><a href="urunler.html">Ürünler</a></li>
+                <li><a href="sepet.html">Sepet</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="ana-bolum">
+        <div class="sayfa-kutusu">
+            <h1 class="sayfa-baslik">Alışveriş Sepeti</h1>
+
+            <div class="sepet-bos" id="sepet-bos-mesaj">Sepetiniz şu an boş.</div>
+
+            <table class="sepet-tablo">
+                <thead>
+                    <tr>
+                        <th>Ürün</th>
+                        <th>Adet</th>
+                        <th>Birim Fiyat</th>
+                        <th>Toplam</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody id="sepet-satirlari"></tbody>
+            </table>
+
+            <p class="sepet-toplam" id="sepet-toplam">Toplam: 0 TL</p>
+            <button class="buton-mor" type="button" id="sepet-temizle-buton">Sepeti Temizle</button>
+        </div>
+    </main>
+
+    <footer class="alt-bilgi">
+        <p>MorShop E-Ticaret Sitesi</p>
+        <p>Sevinç Sardan Çelik - Web Tasarım Ödevi</p>
+    </footer>
+
+    <script src="../scripts/myscript.js"></script>
+</body>
+</html>

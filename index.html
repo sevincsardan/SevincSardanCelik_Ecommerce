@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MorShop - Ana Sayfa</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="ust-menu">
+        <div class="sayfa-kutusu menu-icerik">
+            <a class="logo" href="index.html">MorShop</a>
+            <ul class="menu-linkler">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="pages/urunler.html">Ürünler</a></li>
+                <li><a href="pages/sepet.html">Sepet</a></li>
+                <li><a href="pages/iletisim.html">İletişim</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="ana-bolum">
+        <div class="sayfa-kutusu">
+            <section class="karsilama">
+                <h1>MorShop'a Hoş Geldiniz</h1>
+                <p>Mor, beyaz ve siyah tonlarda giyim ve aksesuar ürünleri.</p>
+                <a class="buton-mor" href="pages/urunler.html">Ürünleri Gör</a>
+            </section>
+
+            <h2 class="sayfa-baslik">Öne Çıkan Ürünler</h2>
+            <div class="urun-listesi" id="one-cikan-urunler"></div>
+
+            <section class="quiz-kutusu">
+                <h2>Mini Quiz</h2>
+                <p class="quiz-soru">Mağazamızın ana rengi hangisidir?</p>
+                <div class="quiz-secenekler">
+                    <label><input type="radio" name="quiz-cevap" value="kirmizi"> Kırmızı</label>
+                    <label><input type="radio" name="quiz-cevap" value="mor"> Mor</label>
+                    <label><input type="radio" name="quiz-cevap" value="yesil"> Yeşil</label>
+                </div>
+                <button class="buton-mor" type="button" id="quiz-gonder">Cevabı Kontrol Et</button>
+                <p class="quiz-sonuc" id="quiz-sonuc"></p>
+            </section>
+        </div>
+    </main>
+
+    <footer class="alt-bilgi">
+        <p>MorShop E-Ticaret Sitesi</p>
+        <p>Sevinç Sardan Çelik - Web Tasarım Ödevi</p>
+    </footer>
+
+    <script src="scripts/myscript.js"></script>
+</body>
+</html>
