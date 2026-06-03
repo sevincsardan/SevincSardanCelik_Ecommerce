@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
-  <rect width="300" height="200" fill="#f3e5f5"/>
-  <circle cx="150" cy="95" r="55" fill="#000000"/>
-  <circle cx="150" cy="95" r="40" fill="#ffffff"/>
-  <line x1="150" y1="95" x2="175" y2="75" stroke="#4a148c" stroke-width="3"/>
-  <text x="150" y="185" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Siyah Saat</text>
-</svg>

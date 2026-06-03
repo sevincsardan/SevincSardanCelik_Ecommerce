@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
-  <rect width="300" height="200" fill="#ffffff"/>
-  <ellipse cx="150" cy="90" rx="70" ry="45" fill="#4a148c"/>
-  <rect x="90" y="130" width="120" height="15" fill="#000000"/>
-  <text x="150" y="185" text-anchor="middle" font-family="Arial" font-size="14" fill="#000">Mor Bere</text>
-</svg>

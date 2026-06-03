@@ -5,42 +5,42 @@ var urunler = [
         ad: "Mor Kapüşonlu",
         fiyat: 349,
         aciklama: "Yumuşak kumaş, mor renk. Günlük kullanım için uygun.",
-        resim: "img/urun1.svg"
+        resim: "img/urun1.jpg"
     },
     {
         id: 2,
         ad: "Siyah Spor Ayakkabı",
         fiyat: 599,
         aciklama: "Rahat taban, siyah-beyaz detaylı spor ayakkabı.",
-        resim: "img/urun2.svg"
+        resim: "img/urun2.jpg"
     },
     {
         id: 3,
         ad: "Beyaz Omuz Çantası",
         fiyat: 279,
         aciklama: "Geniş bölmeli, beyaz renk omuz çantası.",
-        resim: "img/urun3.svg"
+        resim: "img/urun3.jpg"
     },
     {
         id: 4,
         ad: "Mor Bere",
         fiyat: 129,
         aciklama: "Kış için sıcak tutan mor bere.",
-        resim: "img/urun4.svg"
+        resim: "img/urun4.jpg"
     },
     {
         id: 5,
         ad: "Siyah Saat",
         fiyat: 449,
         aciklama: "Klasik siyah kol saati, su geçirmez.",
-        resim: "img/urun5.svg"
+        resim: "img/urun5.jpg"
     },
     {
         id: 6,
         ad: "Mor Defter Seti",
         fiyat: 89,
         aciklama: "3 adet mor kapaklı defter.",
-        resim: "img/urun6.svg"
+        resim: "img/urun6.jpg"
     }
 ];
 
